@@ -11,6 +11,37 @@ All source code in the [Ruby on Rails Tutorial](http://railstutorial.org/)
 is available jointly under the MIT License and the Beerware License. See
 [LICENSE.md](LICENSE.md) for details.
 
+## New Getting started 2.0
+
+Clone the app to your folder and change the Github remote push and pull addresses
+```
+$ cd ~
+$ git clone https://github.com/jimmy2046/sample_app.git your_new_folder
+$ git remote show origin
+$ git remote set-url origin https://github.com/your_Github_name/your_new_folder.git
+$ git remote show origin
+$ git remote -v
+$ git push -u origin master
+```
+
+<br />Run bundle install, migrate and seed the database
+```
+$ bundle install
+$ rails db:migrate
+$ rails db:seed
+
+```
+<br />Run a test, and start the server
+```
+$ rails test
+$ rails s -b 0.0.0.0 -p 3000
+```
+
+<br />In Firefox, type http://localhost:3000/
+```
+http://localhost:3000/
+```
+
 ## Getting started
 
 To get started with the app, clone the repo and then install the needed gems:
