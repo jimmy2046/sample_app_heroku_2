@@ -11,13 +11,13 @@ is available jointly under the MIT License and the Beerware License. See
 [LICENSE.md](LICENSE.md) for details.
 
 ## Deployment
-This project is hosted by Heroku on (https://warm-ravine-91766.herokuapp.com/). As of time of writing, the production version is completed for chapter 10.
+This project is hosted by Heroku on (https://warm-ravine-91766.herokuapp.com/). As of time of writing, the production version is completed for chapter 13. The chapter 11 and 12 are skipped, so the email server is disabled.
 
 ## New Getting started 2.0
 Clone the app to your folder and change the Github remote push and pull addresses
 ```
 $ cd ~
-$ git clone https://github.com/jimmy2046/sample_app.git your_new_folder
+$ git clone https://github.com/jimmy2046/sample_app_heroku_2 your_new_folder
 $ git remote show origin
 $ git remote set-url origin https://github.com/your_Github_name/your_new_folder.git
 $ git remote show origin
