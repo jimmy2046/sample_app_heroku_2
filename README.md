@@ -11,10 +11,11 @@ is available jointly under the MIT License and the Beerware License. See
 [LICENSE.md](LICENSE.md) for details.
 
 ## Deployment
-This project is hosted by Heroku on (https://warm-ravine-91766.herokuapp.com/). As of time of writing, the production version is completed for chapter 13. The chapter 11 and 12 are skipped, so the email server is disabled.
+[https://warm-ravine-91766.herokuapp.com/](https://warm-ravine-91766.herokuapp.com/) (live production, no mail server)<br />
+This project is hosted by Heroku. All 14 chapters were completed on July 31, 2017. The chapter 11 and 12 are skipped, so the email server is disabled.
 
-## New Getting started 2.0
-Clone the app to your folder and change the Github remote push and pull addresses
+## Getting started 2.0
+If you are using Ubuntu Linux with Ruby on Rails installed, you can clone the app to your folder and change the Github remote push and pull addresses
 ```
 $ cd ~
 $ git clone https://github.com/jimmy2046/sample_app_heroku_2 your_new_folder
@@ -24,48 +25,22 @@ $ git remote show origin
 $ git remote -v
 $ git push -u origin master
 ```
-<br />Run bundle install, migrate and seed the database
+Run bundle install, migrate and seed the database
 ```
 $ bundle install
 $ rails db:migrate
 $ rails db:seed
 
 ```
-<br />Run a test, and start the server
+Run a test, and start the server
 ```
 $ rails test
 $ rails s -b 0.0.0.0 -p 3000
 ```
 
-<br />In Firefox, type http://localhost:3000/
+In Firefox, type http://localhost:3000/
 ```
 http://localhost:3000/
-```
-
-## Getting started
-
-To get started with the app, clone the repo and then install the needed gems:
-
-```
-$ bundle install --without production
-```
-
-Next, migrate the database:
-
-```
-$ rails db:migrate
-```
-
-Finally, run the test suite to verify that everything is working correctly:
-
-```
-$ rails test
-```
-
-If the test suite passes, you'll be ready to run the app in a local server:
-
-```
-$ rails server
 ```
 
 For more information, see the
